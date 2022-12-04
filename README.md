@@ -1,3 +1,3 @@
 #Kokoa Clone 2022 Update
 
-HTML & CSS are so much better!
+HTML is so much better!
