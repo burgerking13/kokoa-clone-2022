@@ -13,4 +13,19 @@
 
 .screen-header__icons span {
     margin-left: 20px;
+    position: relative;
+}
+
+.point {
+        color: tomato;
+        width: 10px;
+        height: 10px;
+        border-radius: 3px;
+        display: flex;
+        font-size: 600;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 20px;
+        bottom: 25px;
 }
