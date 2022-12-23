@@ -106,3 +106,23 @@
     padding-top: 10px;
     margin-top: 10px;
 }
+
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(1.5);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.opne-post__heart-count:hover i {
+    will-change: tranform;
+    animation: heartBeat 1s linear infinite;
+}
